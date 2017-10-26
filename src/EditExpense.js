@@ -1,7 +1,13 @@
 import React from 'react';
 
 
-const EditExpense = () =>  <h1>Edit Expense page</h1>
-
+const EditExpense = (props) =>  {
+console.log(props)
+	return(
+	<div>
+		Editing Expense #: {props.match.params.id}
+	</div>
+	)
+}
 
 export default EditExpense;

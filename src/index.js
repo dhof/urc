@@ -1,7 +1,7 @@
 import { render } from 'react-dom';
-import routes from './App';
+import AppRouter from './routers/AppRouter';
 
 render (
-	routes,
+	AppRouter,
 	document.getElementById('root')
 )
