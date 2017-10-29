@@ -8,5 +8,10 @@
 // import NotFound from './NotFound';
 // import AppRouter from './routers/AppRouter';
 
+// // const App = () => {
+// // 	return (
+// // 		<p>Expensify</p>
+// // 	)
+// // }
 
-// export default Header;
+// export default App;
