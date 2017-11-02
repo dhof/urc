@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const EditExpense = (props) =>  {
+const EditExpensePage = (props) =>  {
 console.log(props)
 	return(
 	<div>
@@ -10,4 +10,4 @@ console.log(props)
 	)
 }
 
-export default EditExpense;
+export default EditExpensePage;

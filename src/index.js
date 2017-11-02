@@ -3,8 +3,8 @@ import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import AppRouter from './routers/AppRouter';
 import configureStore from './store/configureStore';
-import { addExpense, editExpense, removeExpense } from './actions/expenses';
-import { setTextFilter, sortByDate, sortByAmount, setStartDate, setEndDate } from './actions/filters';
+import { addExpense  } from './actions/expenses';
+// import { setTextFilter } from './actions/filters';
 import getVisibleExpenses from './selectors/expenses'; 
 
 
