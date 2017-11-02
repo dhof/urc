@@ -17,9 +17,10 @@ store.subscribe(() => {
 	console.log(visibleExpenses)
 })
 
-store.dispatch(addExpense({ description: 'Water bill', note: 'Paid October water bill', amount: 3600, createdAt: 100 }));
-store.dispatch(addExpense({ description: 'Gas bill', note: 'Paid October gas bill', amount: 5400, createdAt: 500 }));
-store.dispatch(setTextFilter('water'));
+store.dispatch(addExpense({ description: 'Water bill', note: 'Paid October water bill', amount: 8000, createdAt: 100 }));
+store.dispatch(addExpense({ description: 'Gas bill', note: 'Paid October gas bill', amount: 5400, createdAt: 1200 }));
+store.dispatch(addExpense({ description: 'Rent bill', note: 'Paid October rent bill', amount: 109400, createdAt: 500 }));
+// store.dispatch(setTextFilter('water'));
 
 const jsx = (
 	<Provider store={store}>
