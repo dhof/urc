@@ -8,7 +8,7 @@ const ExpenseListFilters = (props) => (
 			type="text" 
 			defaultValue={props.filters.text} 
 			onChange={((e) => {
-				props.dispatch(setTextFilter(e.target.value));
+				props.dispatch(setTextFilter(e.target.value.toLowerCase()));
 			})}
 		/>
 		<select 
